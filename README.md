@@ -29,13 +29,13 @@
 ## 📁 프로젝트 구조 (Repository Structure)
 
 ```text
-securities-ai-governance-legaltech-pipeline/
+ai-governance-backoffice-risk-quant/
 ├── README.md
 ├── requirements.txt
-├── config.py                  # 리스크 파라미터 및 1개월(2026-10-02 ~ 2026-11-02) 설정값
-├── src/
-│   ├── governance_etc.py      # AI 거버넌스 ETC(Expected Total Cost) 모델
-│   ├── backoffice_sim.py      # 백오피스 지연시간/과태료 Monte Carlo 시뮬레이터
-│   ├── tail_risk.py           # 테일 리스크 및 NAV 결제 지연 분석기
-│   └── pipeline.py            # 리걸테크 파이프라인 통합 클래스
-└── main.py                    # 전체 시뮬레이션 실행 및 결과 요약 script
+├── config.py
+├── main.py
+└── src/
+    ├── governance_etc.py
+    ├── backoffice_sim.py
+    ├── tail_risk.py
+    └── pipeline.py
