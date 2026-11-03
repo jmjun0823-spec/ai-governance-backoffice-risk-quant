@@ -1,9 +1,10 @@
 # config.py
+# AI 거버넌스 및 백오피스 리스크 시뮬레이션 파라미터 설정
 
 ANALYSIS_PERIOD = {
     'start_date': '2026-10-02',
     'end_date': '2026-11-02',
-    'trading_days': 22  # 최근 1개월 거래일수
+    'trading_days': 22  # 최근 1개월 거래일수 (2026-10-02 ~ 2026-11-02)
 }
 
 PARAM_ETC = {
